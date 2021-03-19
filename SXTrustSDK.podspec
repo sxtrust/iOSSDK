@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'SXTrustSDK'
-  s.version               = '1.0-beta'
+  s.version               = '0.0.1'
   s.summary               = '山西信托交易iOSSDK组件'
 
   s.description           = <<-DESC
@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
   s.frameworks            = "AVFoundation","WebKit","JavaScriptCore"
   s.libraries             = 'xml2'
   s.resources             = 'SXTrustSDK/SXTrustSDKBundle.bundle'
-  s.vendored_frameworks   = 'SXTrustSDK/SXTrustSDK.framework'
-  
+  s.vendored_frameworks   = 'SXTrustSDK/SXTrustSDK.framework'  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
