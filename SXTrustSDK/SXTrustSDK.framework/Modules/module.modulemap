@@ -1,0 +1,6 @@
+framework module SXTrustSDK {
+  umbrella header "SXTrustSDK.h"
+
+  export *
+  module * { export * }
+}
