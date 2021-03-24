@@ -5,13 +5,16 @@
 
 ###### 1、pod安装
 ```
-pod 'SXTrustSDK'
+当前最新可用版本为0.0.3-beta，低于改版本不可用。 但pod上可能还未更新，推荐使用tag的方式，指定版本。
+```
+```
+pod 'SXTrustSDK',:git=>'https://github.com/sxtrust/iOSSDK.git',:tag=>'0.0.3-beta'
 ```
 
 ###### 2、手动安装
 
 ```
-1)、下载对应的SXTrustSDK.framework和SXTrustSDKBundle.bundle文件;
+1)、从tag中下载对应的SXTrustSDK.framework和SXTrustSDKBundle.bundle文件;
 2）、添加进项目;
 3）、添加依赖 AVFoundation.framework、WebKit.framework、JavaScriptCore.framework、libxml2;
 4）、在'Target - Build Settings - Other Linker Flags' 里添加 '-ObjC';
