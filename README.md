@@ -3,12 +3,12 @@
 
 ## 安装依赖
 
-### 1、pod安装
+###### 1、pod安装
 ```
 pod 'SXTrustSDK'
 ```
 
-### 2、手动安装
+###### 2、手动安装
 
 ```
 1)、下载对应的SXTrustSDK.framework和SXTrustSDKBundle.bundle文件;
@@ -17,9 +17,23 @@ pod 'SXTrustSDK'
 4）、在'Target - Build Settings - Other Linker Flags' 里添加 '-ObjC';
 ```
 
+## 权限设置
+
+```
+需在项目工程的 info.plist 文件中配置相关权限
+NSCameraUsageDescription  // 相机
+NSMicrophoneUsageDescription // 麦克风
+```
+
 ## 接口
 
-###### 1、在调用sdk前，设置渠道号和环境参数
+###### 1、Header引入
+
+```
+#import <SXTrustSDK/SXTrustSDK.h>
+```
+
+###### 2、在调用sdk前，设置渠道号和环境参数
 
 ```
 typedef NS_ENUM(NSInteger,SXTrustEnv) {
@@ -36,7 +50,7 @@ typedef NS_ENUM(NSInteger,SXTrustEnv) {
 
 ```
 
-###### 2、入口调用
+###### 3、方法调用
 
 ```
 /**
