@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'SXTrustSDK'
-  s.version               = '0.0.2-beta'
+  s.version               = '0.0.3-beta'
   s.summary               = '山西信托交易iOSSDK组件'
 
   s.description           = <<-DESC
