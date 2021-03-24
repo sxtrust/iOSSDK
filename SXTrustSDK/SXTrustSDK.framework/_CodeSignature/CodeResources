@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SXTrust.h</key>
 		<data>
-		ccHa/bgWABgsR4GCwm0kHh5mrqg=
+		sBcL8i8tAw0v4BhsEu6PoLoKpjE=
 		</data>
 		<key>Headers/SXTrustSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E5F3WEMeSa0bTqisurryoQVnbr0=
+		iRtXktyj8ZSPmIyuSpgNHeZ4Lc0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,11 +27,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ccHa/bgWABgsR4GCwm0kHh5mrqg=
+			sBcL8i8tAw0v4BhsEu6PoLoKpjE=
 			</data>
 			<key>hash2</key>
 			<data>
-			tXlb8vsz4MfwzCebHFWrUvKFh/bsEobJRI5HQ6fSdlk=
+			WM42l3Gfb5o8RLHh7HcqtffsqOsoGpGgHNYxKhTqnek=
 			</data>
 		</dict>
 		<key>Headers/SXTrustSDK.h</key>

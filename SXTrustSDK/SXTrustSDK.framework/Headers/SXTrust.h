@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger,SXTrustEnv) {
 
 /**
  *  山西信托产品列表入口
- *  @param prodCodes  需要具体展示产品列表. 为空时默认展示渠道下的全部产品.  可选
+ *  @param prodCodes  需要具体展示产品列表. 为空时默认展示渠道下的全部产品.  可选.  调用方式比如 @[@"PN001",@"PN002"]
  *  @param navigator 控制器.  用于视图管理.  必填
  *  @param callback 事务回调.  可选
  */
