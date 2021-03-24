@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   山西信托交易iOSSDK组件. 用于授权方在app内部嵌入使用.
                        DESC
 
-  s.homepage              = 'http://www.sxxt.net/'
+  s.homepage              = 'https://github.com/sxtrust/iOSSDK.git'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.author                = { 'sxxtappdev' => 'sxxtappdev@yingnagroup.com' }
   s.source                = { :git => 'https://github.com/sxtrust/iOSSDK.git', :tag => s.version.to_s }
