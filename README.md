@@ -5,7 +5,7 @@
 
 ###### 1、pod安装
 ```
-当前最新可用版本为0.0.4-beta，低于改版本不可用。 但pod上可能还未更新，推荐使用tag的方式，指定版本。
+当前最新可用版本为0.0.6-beta，低于改版本不可用。 但pod上可能还未更新，推荐使用tag的方式，指定版本。
 ```
 ```
 pod 'SXTrustSDK',:git=>'https://github.com/sxtrust/iOSSDK.git',:tag=>'0.0.4-beta'
@@ -26,6 +26,8 @@ pod 'SXTrustSDK',:git=>'https://github.com/sxtrust/iOSSDK.git',:tag=>'0.0.4-beta
 需在项目工程的 info.plist 文件中配置相关权限
 NSCameraUsageDescription  // 相机
 NSMicrophoneUsageDescription // 麦克风
+NSAppleMusicUsageDescription // 媒体资料
+NSPhotoLibraryUsageDescription // 相册
 ```
 
 ## 接口
