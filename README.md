@@ -5,10 +5,10 @@
 
 ###### 1、pod安装
 ```
-当前最新可用版本为0.0.6-beta，低于改版本不可用。 但pod上可能还未更新，推荐使用tag的方式，指定版本。
+当前最新可用版本为v1.0.0
 ```
 ```
-pod 'SXTrustSDK',:git=>'https://github.com/sxtrust/iOSSDK.git',:tag=>'0.0.4-beta'
+pod 'SXTrustSDK'
 ```
 
 ###### 2、手动安装
