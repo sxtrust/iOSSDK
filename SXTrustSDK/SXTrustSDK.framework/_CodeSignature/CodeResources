@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/SXTrust.h</key>
 		<data>
-		sBcL8i8tAw0v4BhsEu6PoLoKpjE=
+		kGWVK4Gml0aWH3RFhQuvP88blNU=
 		</data>
 		<key>Headers/SXTrustSDK.h</key>
 		<data>
-		dUuMdM+7oLHNYTeRnFY6JSyLcX8=
+		TJNzGDf4TA1CxHnPOywCAeA4XbY=
+		</data>
+		<key>Headers/SXTrustUserInfo.h</key>
+		<data>
+		mvIMahwV8i6Ygo8gw5E248xF9as=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -27,22 +31,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sBcL8i8tAw0v4BhsEu6PoLoKpjE=
+			kGWVK4Gml0aWH3RFhQuvP88blNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			WM42l3Gfb5o8RLHh7HcqtffsqOsoGpGgHNYxKhTqnek=
+			eyttQMlCkUIbMGp/xlftN3eD4USds833P/yg1zx8GHY=
 			</data>
 		</dict>
 		<key>Headers/SXTrustSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dUuMdM+7oLHNYTeRnFY6JSyLcX8=
+			TJNzGDf4TA1CxHnPOywCAeA4XbY=
 			</data>
 			<key>hash2</key>
 			<data>
-			R+Fw6RWU7VzvTYcNHUwBjg3eiHFOn6mZYkEbY34CDZk=
+			S/IEb0kGf23GFMxE3QXopPPMhfAt6Up6cDXi3flMiR4=
+			</data>
+		</dict>
+		<key>Headers/SXTrustUserInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mvIMahwV8i6Ygo8gw5E248xF9as=
+			</data>
+			<key>hash2</key>
+			<data>
+			oMm0lNERuhWCDk2qbRfHq5XEN3ppFXB40b3L3iU4lgQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

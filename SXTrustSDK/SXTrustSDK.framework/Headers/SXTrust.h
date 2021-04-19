@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "SXTrustUserInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,6 +21,7 @@ typedef NS_ENUM(NSInteger,SXTrustEnv) {
     SXTrustEnvPublicTest    // 外网测试    
 };
 
+
 @interface SXTrust : NSObject
 
 /**
@@ -28,6 +30,17 @@ typedef NS_ENUM(NSInteger,SXTrustEnv) {
  *  @param env 环境
  */
 + (SXTrust *)registerClient:(NSString *)channelKey env:(SXTrustEnv)env;
+
+/**
+ *  保存实名信息用于实名流程填写.  需在showProducts:navigator:callback:前调用.  否则实名信息不会填写，需用户自己输入.
+ *  只内存保存，下次启动app需重新赋值
+ */
++ (void)saveUserInfo:(SXTrustUserInfo *)userInfo;
+
+/**
+ *  删除保存的信息
+ */
++ (void)deleteUserInfo;
 
 /**
  *  山西信托产品列表入口
