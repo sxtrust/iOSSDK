@@ -5,7 +5,10 @@
 
 ###### 1、pod安装
 ```
+稳定版：
 当前最新可用版本为v1.0.1
+beta版
+最新beta版本为v1.0.2bea
 ```
 ```
 pod 'SXTrustSDK'
@@ -68,4 +71,19 @@ typedef NS_ENUM(NSInteger,SXTrustEnv) {
            navigator:(UINavigationController *)navigator
             callback:(nullable void(^)(SXTrustResultCode code, NSString *message))callback;
     
+```
+
+###### v1.0.2新增
+```
+/**
+ *  保存实名信息用于实名流程填写.  需在showProducts:navigator:callback:前调用.  否则实名信息不会填写，需用户自己输入.
+ *  只内存保存，下次启动app需重新赋值
+ */
++ (void)saveUserInfo:(SXTrustUserInfo *)userInfo;
+```
+```
+/**
+ *  删除保存的信息
+ */
++ (void)deleteUserInfo;
 ```
