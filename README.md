@@ -8,7 +8,7 @@
 稳定版：
 当前最新可用版本为v1.0.1
 beta版
-最新beta版本为v1.0.2-bea，可从main主干拉取
+最新beta版本为v1.0.3-bea，可从main主干拉取
 ```
 ```
 pod 'SXTrustSDK'
